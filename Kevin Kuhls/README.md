@@ -79,4 +79,5 @@ Install git
 ### Windows: 
 * docker run -it --rm --privileged –v %cd%:/home/docker kuhlskev/ansible_vpn:1.0
 ### OSX/Lin: 
-* docker run -it --rm --privileged –v "$(pwd)":/home/docker kuhlskev/ansible_vpn:1.0
+* `docker run -ti --rm --privileged -v "$(pwd)":/home/docker kuhlskev/ansible_vpn:1.0`
+

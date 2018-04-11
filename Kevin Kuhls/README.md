@@ -73,8 +73,8 @@ Install git
 * [Pod30](https://v1461user1:ed93c8@portal.vpod1461.dc-05.com:8443/dcloud)
 
 
-docker pull kuhlskev/ansible_vpn:1.0
-Windows: 
-docker run -it --rm --privileged –v %cd%:/home/docker kuhlskev/ansible_vpn:1.0
-OSX/Lin: 
-docker run -it --rm --privileged –v "`pwd`":/home/docker kuhlskev/ansible_vpn:1.0
+* docker pull kuhlskev/ansible_vpn:1.0
+### Windows: 
+* docker run -it --rm --privileged –v %cd%:/home/docker kuhlskev/ansible_vpn:1.0
+### OSX/Lin: 
+* docker run -it --rm --privileged –v "`pwd`":/home/docker kuhlskev/ansible_vpn:1.0
